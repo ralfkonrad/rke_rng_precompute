@@ -6,3 +6,5 @@ cmake_policy(SET CMP0091 NEW)
 project(rke_rng_precompute VERSION 0.0.1)
 
 add_subdirectory(external)
+
+add_subdirectory(xoshiro256starstar)
